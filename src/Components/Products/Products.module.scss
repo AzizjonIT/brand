@@ -1,0 +1,121 @@
+.clear_x {
+    display: flex;
+    gap: 20px;
+    padding: 3px 5px;
+    width: auto;
+    height: 35px;
+    border: 1px solid #0D6EFD;
+    border-radius: 5px;
+
+    background: var(--white, #FFF);
+
+    .clear_x_icon {
+        width: 25px;
+    }
+
+
+
+
+
+}
+
+.clear_top {
+    display: flex;
+
+    gap: 10px;
+
+    .clear_filter {
+        padding: 4px 5px;
+        color: #0D6EFD;
+    }
+}
+
+
+// Products cart
+
+.products_row {
+
+    width: 295px;
+    height: 405px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border: 1px solid #E3E8EE;
+
+    .products_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .forovite {
+        width: 24px;
+    }
+
+    .button_forovite {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid var(--gray-300, #E3E8EE);
+        background: var(--white, #FFF);
+
+        /* shadow-sm */
+        box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.08);
+    }
+
+    .products_price {
+        display: flex;
+        height: 25px;
+        gap: 8px;
+
+        .no_price {
+            font-weight: 400;
+            color: #8B96A5;
+            font-size: 16px;
+            text-decoration-line: line-through;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+    }
+
+    .products_stars {
+        display: flex;
+        height: 25px;
+        gap: 6px;
+
+        .stars_icon {
+            width: 90px;
+
+        }
+
+    }
+
+    .title {
+        height: 20px;
+        margin-top: 5px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 20px;
+    }
+
+}
+
+.products {
+    margin-top: 60px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

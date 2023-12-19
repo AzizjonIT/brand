@@ -1,0 +1,21 @@
+.about_proce_col {
+  margin: 36px 0;
+  ul {
+    display: flex;
+    .about_list {
+      display: flex;
+      align-items: center;
+      .rating {
+        max-width: 104px;
+      }
+      .reviews_icon {
+        max-width: 26px;
+        color: #787a80;
+      }
+      .shopping {
+        max-width: 26px;
+        color: #787a80;
+      }
+    }
+  }
+}
